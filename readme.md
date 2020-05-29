@@ -1,3 +1,5 @@
+![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
+
 ## Terraform environments with locals
 
 Sample usage of terraform locals and terraform workspace to isolate environment.
