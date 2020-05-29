@@ -34,6 +34,6 @@ resource "aws_instance" "env_service" {
   count         = local.count
 
   tags = {
-    Name = "${local.env}-env"
+    Name = "${local.env}-env-${count.index}"
   }
 }
